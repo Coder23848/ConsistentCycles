@@ -36,7 +36,6 @@ namespace ConsistentCycles
         private void RainWorld_OnModsInit(On.RainWorld.orig_OnModsInit orig, RainWorld self)
         {
             orig(self);
-            //Debug.Log("Consistent Cycles config setup: " + MachineConnector.SetRegisteredOI(PluginInfo.PLUGIN_GUID, PluginOptions.Instance));
         }
     }
 }
