@@ -1,4 +1,4 @@
-# Food Respawn Nerf
+# Consistent Cycles
 A mod for Rain World that makes certain aspects of a cycle consistent between deaths. Affects:
 - the duration of a cycle
 - the duration of a pre-cycle
