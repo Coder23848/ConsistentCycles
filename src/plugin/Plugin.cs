@@ -10,15 +10,12 @@ namespace ConsistentCycles
         private void OnEnable()
 #pragma warning restore IDE0051
         {
-            // Plugin startup logic
-            On.RainWorld.OnModsInit += RainWorld_OnModsInit;
-
             On.World.ctor += World_ctor;
         }
 
         private void World_ctor(On.World.orig_ctor orig, World self, RainWorldGame game, Region region, string name, bool singleRoomWorld)
         {
-            if (game.IsStorySession)
+            if (game != null && game.IsStorySession)
             {
                 Random.State state = Random.state;
                 game.GetStorySession.SetRandomSeedToCycleSeed(10000);
@@ -31,11 +28,6 @@ namespace ConsistentCycles
             {
                 orig(self, game, region, name, singleRoomWorld);
             }
-        }
-
-        private void RainWorld_OnModsInit(On.RainWorld.orig_OnModsInit orig, RainWorld self)
-        {
-            orig(self);
         }
     }
 }
