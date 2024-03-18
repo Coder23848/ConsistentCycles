@@ -1,11 +1,12 @@
 {
 	"id": "consistentcycles",
 	"name": "Consistent Cycles",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"hide_version": false,
 	"authors": "Coder23848",
 	"description": "Makes certain aspects of a cycle consistent between deaths.",
 	"requirements": [],
 	"requirements_names": [],
-	"checksum_override_version": false
+	"checksum_override_version": false,
+	"target_game_version": "v1.9.07b"
 }

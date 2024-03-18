@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
-    <AssemblyName>foodrespawnnerf</AssemblyName>
-    <Description>Food Respawn Nerf</Description>
+    <AssemblyName>consistentcycles</AssemblyName>
+    <Description>Consistent Cycles</Description>
     <Version>1.0.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
