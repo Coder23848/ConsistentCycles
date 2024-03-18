@@ -1,7 +1,7 @@
 {
 	"id": "consistentcycles",
 	"name": "Consistent Cycles",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"hide_version": false,
 	"authors": "Coder23848",
 	"description": "Makes certain aspects of a cycle consistent between deaths.",
